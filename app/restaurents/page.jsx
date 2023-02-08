@@ -2,7 +2,8 @@ import Carousel from "../carouseluirest";
 
 async function getRestaurents() {
   const restaurents = await fetch(
-    "http://139.59.246.244/place/getplacebylimit/Rest/15"
+    "http://139.59.246.244/place/getplacebylimit/Rest/15",
+    { cache: "no-store" }
   );
   return await restaurents.json();
 }

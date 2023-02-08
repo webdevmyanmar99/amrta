@@ -2,7 +2,8 @@ import Carousel from "../carouselui";
 
 async function getHotels() {
   const hotels = await fetch(
-    "http://139.59.246.244/place/getplacebylimit/Hotel/15"
+    "http://139.59.246.244/place/getplacebylimit/Hotel/15",
+    { cache: "no-store" }
   );
   return await hotels.json();
 }
