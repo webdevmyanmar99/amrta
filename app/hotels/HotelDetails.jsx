@@ -11,8 +11,9 @@ async function getHotelDetails(id) {
 }
 
 export default async function HotelDetails({ params }) {
-  const hotelId = params.id;
-  const hotel = await getHotelDetails(hotelId);
+  var hotel = await getHotelDetails(params.id);
+
+  var [hotel] = await Promise.all([hotel]);
   console.log(hotel);
   return (
     <div className="flex-col">

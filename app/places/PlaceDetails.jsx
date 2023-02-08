@@ -13,7 +13,8 @@ async function getPlaceDetails(id) {
 }
 
 export default async function PlaceDetails({ params }) {
-  const place = await getPlaceDetails(params.id);
+  var place = await getPlaceDetails(params.id);
+  var [place] = await Promise.all([place]);
   console.log(place);
   return (
     <div className="flex flex-col">

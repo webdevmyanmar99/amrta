@@ -13,7 +13,8 @@ async function getRestaurentDetails(id) {
 }
 
 export default async function RestaurentDetails({ params }) {
-  const restaurent = await getRestaurentDetails(params.id);
+  var restaurent = await getRestaurentDetails(params.id);
+  var [restaurent] = await Promise.all([restaurent]);
   console.log(restaurent);
   return (
     <div className="flex-col">

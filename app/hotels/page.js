@@ -2,15 +2,15 @@ import Carousel from "../carouselui";
 
 async function getHotels() {
   const hotels = await fetch(
-    "http://139.59.246.244/place/getplacebylimit/Hotel/15",
-    { cache: "no-store" }
+    "http://139.59.246.244/place/getplacebylimit/Hotel/15"
   );
   return await hotels.json();
 }
 
 export default async function Hotels() {
-  const hotels = await getHotels();
-  console.log(hotels);
+  var hotels = await getHotels();
+  var [hotels] = await Promise.all([hotels]);
+
   return (
     <div>
       <div className="flex justify-between items-center mt-2">

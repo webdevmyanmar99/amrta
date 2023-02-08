@@ -2,15 +2,14 @@ import Carousel from "../carouseluirest";
 
 async function getRestaurents() {
   const restaurents = await fetch(
-    "http://139.59.246.244/place/getplacebylimit/Rest/15",
-    { cache: "no-store" }
+    "http://139.59.246.244/place/getplacebylimit/Rest/15"
   );
   return await restaurents.json();
 }
 
 export default async function Restaurents() {
-  const restaurents = await getRestaurents();
-
+  var restaurents = await getRestaurents();
+  var [restaurent] = await Promise.all([restaurent]);
   return (
     <div>
       <div className="flex justify-between items-center mt-2">
