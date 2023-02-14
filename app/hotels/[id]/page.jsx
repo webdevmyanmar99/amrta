@@ -15,7 +15,7 @@ export default async function HotelDetails({ params }) {
     <div className="grid grid-cols-1 gap-3 m-5 md:grid-cols-2 items-center justify-center">
       <div
         key={data._id}
-        className="p-3 mb-6 w-[400px] h-[250px] relative mx-auto"
+        className="p-3 mb-6 w-[350px] h-[250px] relative mx-auto"
       >
         <Image
           src={data?.images[0]?.pathimages}
