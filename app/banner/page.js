@@ -21,6 +21,18 @@ export default function Towns() {
     {
       url: "https://amrtago.sgp1.digitaloceanspaces.com/places/632e8782a9261.jpg",
     },
+    {
+      url: "https://amrtago.sgp1.digitaloceanspaces.com/places/632fce8fbdf60.jpg",
+    },
+    {
+      url: "https://amrtago.sgp1.digitaloceanspaces.com/places/632f1d87a21cd.jpg",
+    },
+    {
+      url: "https://amrtago.sgp1.digitaloceanspaces.com/places/632f2f5553e2d.jpg",
+    },
+    {
+      url: "https://amrtago.sgp1.digitaloceanspaces.com/places/632f383e27bc3.jpg",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

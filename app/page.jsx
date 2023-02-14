@@ -1,7 +1,7 @@
 import Hotels from "./hotels/page";
 import Places from "./places/page";
 import Restaurents from "./restaurents/page";
-import Towns from "./towns/page";
+import Towns from "./banner/page";
 
 export default function Home() {
   return (
