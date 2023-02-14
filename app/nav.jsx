@@ -15,7 +15,11 @@ const NavBar = () => {
 
       <div className="flex justify-between gap-3 items-center">
         <div>
-          <BsBellFill size={25} color="white" />
+          <BsBellFill
+            size={25}
+            color="white"
+            className="hidden md:inline-block"
+          />
         </div>
         <div>
           <BiUserCircle size={25} color="white" />
