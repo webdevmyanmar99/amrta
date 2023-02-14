@@ -74,7 +74,7 @@ export default function Towns() {
             onClick={() => goToSlide(slideIndex)}
             className="text-2xl cursor-pointer"
           >
-            <RxDotFilled />
+            <RxDotFilled className="text-orange-400 hover:text-orange-700 text-3xl" />
           </div>
         ))}
       </div>
