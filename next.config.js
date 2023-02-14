@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ["skydigitmm.com", "amrtago.sgp1.digitaloceanspaces.com"],
+    domains: ["amrtago.sgp1.digitaloceanspaces.com"],
   },
 };
 

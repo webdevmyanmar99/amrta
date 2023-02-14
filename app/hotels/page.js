@@ -1,6 +1,6 @@
 import Carousel from "../carouselui";
 
-async function getHotels() {
+async function getTowns() {
   const hotels = await fetch(
     "http://139.59.246.244/place/getplacebylimit/Hotel/15"
   );
@@ -8,7 +8,7 @@ async function getHotels() {
 }
 
 export default async function Hotels() {
-  var hotels = await getHotels();
+  var hotels = await getTowns();
   var [hotels] = await Promise.all([hotels]);
 
   return (

@@ -41,14 +41,14 @@ export default function Carousel({ fetchdata }) {
                   {data.localize.name[0]}
                 </h2>
               </div>
-              {/* <Link
+              <Link
                 href={`/hotels/${data._id}`}
                 className="absolute bottom-4 right-4"
               >
                 <div className="px-2 py-1 text-xs font-bold text-white border-2 border-white rounded-lg z-20">
                   view details
                 </div>
-              </Link> */}
+              </Link>
             </motion.div>
           ))}
         </motion.div>
