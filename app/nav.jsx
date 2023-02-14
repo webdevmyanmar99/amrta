@@ -4,7 +4,7 @@ import { BsBellFill } from "react-icons/bs";
 import Search from "./components/Search";
 const NavBar = () => {
   return (
-    <div className="flex items-center justify-between px-5 bg-gradient-to-r from-orange-400 to-orange-800 py-2 rounded-2xl">
+    <div className="flex items-center justify-between px-5 bg-gradient-to-r from-orange-400 to-orange-800 py-2">
       <div className="text-white text-xl font-bold">
         <Link href={"/"}>
           Amrta <span className="text-blue-800 text-2xl font-bold">G</span>o
