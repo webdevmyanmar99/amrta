@@ -20,6 +20,7 @@ const NavBar = () => {
             color="white"
             className="hidden md:inline-block"
           />
+          {/* that change */}
         </div>
         <div>
           <BiUserCircle size={25} color="white" />
