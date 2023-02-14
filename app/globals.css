@@ -12,9 +12,9 @@
   body {
     @apply flex flex-col h-full;
   }
-  /* main {
+  main {
     @apply flex-1 mx-3;
-  } */
+  }
 }
 /* 
 @layer components {
