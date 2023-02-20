@@ -24,13 +24,24 @@ export default async function TownPlaceDetails({ params }) {
     // </div>
 
     <div>
-      <div className="flex gap-4 items-center px-4 pt-2 ">
+      <div className="flex gap-4 items-center px-4 pt-2 justify-between">
         <Link
           href={`/towns/${params.name}`}
           className="px-2 py-1 bg-orange-700 text-white"
         >
           Back{" "}
         </Link>
+        <div className="flex justify-around items-center gap-3">
+          <div className="px-2 py-1 text-white bg-orange-600 font-bold mr-5 hover:bg-orange-800 rounded-lg">
+            <Link href={`/towns/${params.name}/Hotel`}>Hotels</Link>
+          </div>
+          <div className="px-2 py-1 text-white bg-orange-600 font-bold mr-5 hover:bg-orange-800 rounded-lg">
+            <Link href={`/towns/${params.name}/Rest`}>Restaurents</Link>
+          </div>
+          <div className="px-2 py-1 text-white bg-orange-600 font-bold mr-5 hover:bg-orange-800 rounded-lg">
+            <Link href={`/towns/${params.name}/Place`}>Attractions</Link>
+          </div>
+        </div>
       </div>
 
       <h1 className="font-bold text-orange-700 text-xl text-center hidden md:block">
