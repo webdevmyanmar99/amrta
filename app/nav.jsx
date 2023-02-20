@@ -4,16 +4,11 @@ import { BsBellFill } from "react-icons/bs";
 import Search from "./components/Search";
 const NavBar = () => {
   return (
-    <div className="flex gap-2 items-center justify-between px-5 bg-gradient-to-r from-orange-400 to-orange-800 py-2">
-      {/* <div className="text-white text-xl font-bold">
-        <Link href={"/"}>
-          Amrta <span className="text-blue-800 text-2xl font-bold">G</span>o
-        </Link>
-      </div> */}
+    <div className="flex gap-2 items-center justify-between px-5 bg-gradient-to-r from-orange-400 to-orange-800 py-2 relative">
       <Link href="/">
         <img src="amrtagologo1.png" width={"45px"} height="45px" alt="logo" />
       </Link>
-      <Search />
+      <Search/>
 
       <div className="flex justify-between gap-3 items-center">
         <div>

@@ -2,7 +2,7 @@ import Carousel from "../carouseluiplace";
 
 async function getPlaces() {
   const places = await fetch(
-    "http://139.59.246.244/place/getplacebylimit/Place/15"
+    "http://139.59.246.244/place/getplacebypage/Place?page=0"
   );
   return await places.json();
 }

@@ -9,28 +9,28 @@ export default function Towns() {
     {
       url: "https://amrtago.sgp1.digitaloceanspaces.com/places/62d587acc50f7.jpg",
       name: "Yangon",
-      properties: 250,
+      properties: 15,
     },
     {
       url: "https://amrtago.sgp1.digitaloceanspaces.com/places/63a1c6b7a91e5.jpg",
       name: "PyinOoLwin",
-      properties: 150,
+      properties: 15,
     },
     {
       url: "https://amrtago.sgp1.digitaloceanspaces.com/places/63a1c719c05b7.jpg",
       name: "Mandalay",
-      properties: 120,
+      properties: 9,
     },
 
     {
       url: "https://amrtago.sgp1.digitaloceanspaces.com/places/632e859ccdcf6.jpg",
-      name: "Kalaw",
+      name: "Pathein",
       properties: 50,
     },
     {
       url: "https://amrtago.sgp1.digitaloceanspaces.com/places/632e8782a9261.jpg",
       name: "Bagan",
-      properties: 80,
+      properties: 4,
     },
     // {
     //   url: "https://amrtago.sgp1.digitaloceanspaces.com/places/632fce8fbdf60.jpg",
